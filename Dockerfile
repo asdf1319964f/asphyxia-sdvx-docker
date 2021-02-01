@@ -7,7 +7,7 @@ RUN apt-get update && \
 # Extract Asphyxia CORE
 RUN mkdir /core && \
   cd /core && \
-  wget https://github.com/asphyxia-core/asphyxia-core.github.io/releases/download/release/asphyxia-core-linux-x64.zip && \
+  wget https://github.com/asphyxia-core/asphyxia-core.github.io/releases/download/v1.20/asphyxia-core-linux-x64.zip && \
   unzip asphyxia-core-linux-x64.zip && \
   chmod +x asphyxia-core-linux-x64 && \
   rm -rf asphyxia-core-linux-x64.zip
